@@ -1,0 +1,48 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif; /* Define a família de fontes a ser usada. Neste exemplo, utilizamos Arial e sans-serif como uma fonte de backup.*/
+    margin: 0; /*Define as margens e o espaçamento interno dos elementos. Configuramos margin: 0 e padding: 0 no corpo da página para remover margens e preenchimentos padrão.*/
+    padding: 0;
+  }
+  
+  .login-container {
+    background-color: #fff;
+    width: 300px; /*Define a largura de um elemento. No caso do contêiner de login, definimos */
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /*  para adicionar uma sombra sutil ao contêiner de login.*/
+  }
+  
+  h2 {
+    text-align: center; /*para centralizar o título "Fazer Login".*/
+    color: #333;
+  }
+  
+  form {
+    margin-top: 20px; /* Define a margem superior. Configuramos `margin*/
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%; /*300px para limitar sua largura.*/
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(2, 0, 0);
+    border-radius: 3px; /* Define o raio dos cantos de um elemento. */
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ec0000; /* Define a cor de fundo. Usamos #f2f2f2 para o corpo da página*/
+    color: rgb(0, 0, 0); /* Define a cor do texto. Utilizamos #333 para o título "Fazer Login".*/
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
